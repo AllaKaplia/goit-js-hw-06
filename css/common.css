@@ -42,3 +42,11 @@ ul {
   width: 640px;
   height: 700px;
 }
+
+.boxes_styles {
+  display: inline-block;
+  margin: 10px;
+  width: 30px;
+  height: 30px;
+  border: none;
+}
