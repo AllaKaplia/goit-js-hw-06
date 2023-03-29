@@ -11,7 +11,7 @@ function onFormSubmit(event) {
     const password = formElements.password.value;
 
     if(email === '' || password === ''){
-        alert('Please fill in this field!');
+       return alert('Please fill in this field!');
     }
 
     const formData = {
