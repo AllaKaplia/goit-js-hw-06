@@ -3,5 +3,5 @@ const text = document.querySelector('span#text');
 
 
 inputFontSizeControl.addEventListener('input', function (params) {
-    text.style.cssText = `font-size: ${params.target.value}px;`;
+    text.style.fontSize = `${params.target.value}px`;
 });
