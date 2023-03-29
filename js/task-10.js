@@ -17,7 +17,6 @@ createBtn.addEventListener('click', () => {
 
 destroyBtn.addEventListener('click', destroyBoxes);
 
-
 function createBoxes(amount) {
   const boxContainer = document.getElementById('boxes');
   let width = 30;
